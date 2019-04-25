@@ -200,10 +200,10 @@ USE `WishlistService`;
 INSERT INTO `WishlistService`.`Customer` (`id`, `login_id`, `email_id`, `phone_no`, `dob`, `gender`, `name`) VALUES (1, 'deepika', 'deepika@gmail.com', '9611529722', '1997-10-25', 'F', 'Deepika Alavala');
 INSERT INTO `WishlistService`.`Customer` (`id`, `login_id`, `email_id`, `phone_no`, `dob`, `gender`, `name`) VALUES (2, 'manisha', 'manisha@gmail.com', '7730069061', '1996-06-11', 'F', 'Manisha Sinha');
 INSERT INTO `WishlistService`.`Customer` (`id`, `login_id`, `email_id`, `phone_no`, `dob`, `gender`, `name`) VALUES (3, 'vaishali', 'vaishali@gmail.com', '6301319864', '1996-03-09', 'F', 'Vaishali Walia');
-INSERT INTO `WishlistService`.`Customer` (`id`, `login_id`, `email_id`, `phone_no`, `dob`, `gender`, `name`) VALUES (4, 'Harika', 'harika@gmail.com', '6301319854', '1996-03-10', 'F', 'Harika');
-INSERT INTO `WishlistService`.`Customer` (`id`, `login_id`, `email_id`, `phone_no`, `dob`, `gender`, `name`) VALUES (5, 'Thangaraju', 'Thangaraju@gmail.com', '6301317864', '1996-03-15', 'F', 'Thangaraju');
-INSERT INTO `WishlistService`.`Customer` (`id`, `login_id`, `email_id`, `phone_no`, `dob`, `gender`, `name`) VALUES (6, 'Divyanshi', 'Divyanshi@gmail.com', '6301369864', '1996-03-14', 'F', 'Divyanshi Singhal');
-INSERT INTO `WishlistService`.`Customer` (`id`, `login_id`, `email_id`, `phone_no`, `dob`, `gender`, `name`) VALUES (7, 'Damini', 'Damini@gmail.com', '6301369864', '1996-03-16', 'F', 'Damini Saxena');
+INSERT INTO `WishlistService`.`Customer` (`id`, `login_id`, `email_id`, `phone_no`, `dob`, `gender`, `name`) VALUES (4, 'harika', 'harika@gmail.com', '6301319854', '1996-03-10', 'F', 'Harika');
+INSERT INTO `WishlistService`.`Customer` (`id`, `login_id`, `email_id`, `phone_no`, `dob`, `gender`, `name`) VALUES (5, 'thangaraju', 'Thangaraju@gmail.com', '6301317864', '1996-03-15', 'F', 'Thangaraju');
+INSERT INTO `WishlistService`.`Customer` (`id`, `login_id`, `email_id`, `phone_no`, `dob`, `gender`, `name`) VALUES (6, 'divyanshi', 'Divyanshi@gmail.com', '6301369864', '1996-03-14', 'F', 'Divyanshi Singhal');
+INSERT INTO `WishlistService`.`Customer` (`id`, `login_id`, `email_id`, `phone_no`, `dob`, `gender`, `name`) VALUES (7, 'damini', 'Damini@gmail.com', '6301369864', '1996-03-16', 'F', 'Damini Saxena');
 
 COMMIT;
 
@@ -235,10 +235,10 @@ INSERT INTO `WishlistService`.`Wishlist` (`wishlist_id`, `name`, `creator_id`, `
 INSERT INTO `WishlistService`.`Wishlist` (`wishlist_id`, `name`, `creator_id`, `status`) VALUES (3, 'Fashion', 'manisha', 'ongoing');
 INSERT INTO `WishlistService`.`Wishlist` (`wishlist_id`, `name`, `creator_id`, `status`) VALUES (4, 'Friendship', 'manisha', 'ongoing');
 INSERT INTO `WishlistService`.`Wishlist` (`wishlist_id`, `name`, `creator_id`, `status`) VALUES (5, 'Anniversary', 'manisha', 'ongoing');
-INSERT INTO `WishlistService`.`Wishlist` (`wishlist_id`, `name`, `creator_id`, `status`) VALUES (6, 'Friendship', 'Divyanshi', 'ongoing');
-INSERT INTO `WishlistService`.`Wishlist` (`wishlist_id`, `name`, `creator_id`, `status`) VALUES (7, 'Anniversary', 'Divyanshi', 'ongoing');
-INSERT INTO `WishlistService`.`Wishlist` (`wishlist_id`, `name`, `creator_id`, `status`) VALUES (8, 'Need', 'Damini', 'ongoing');
-INSERT INTO `WishlistService`.`Wishlist` (`wishlist_id`, `name`, `creator_id`, `status`) VALUES (9, 'Fashion', 'Divyanshi', 'ongoing');
+INSERT INTO `WishlistService`.`Wishlist` (`wishlist_id`, `name`, `creator_id`, `status`) VALUES (6, 'Friendship', 'divyanshi', 'ongoing');
+INSERT INTO `WishlistService`.`Wishlist` (`wishlist_id`, `name`, `creator_id`, `status`) VALUES (7, 'Anniversary', 'divyanshi', 'ongoing');
+INSERT INTO `WishlistService`.`Wishlist` (`wishlist_id`, `name`, `creator_id`, `status`) VALUES (8, 'Need', 'damini', 'ongoing');
+INSERT INTO `WishlistService`.`Wishlist` (`wishlist_id`, `name`, `creator_id`, `status`) VALUES (9, 'Fashion', 'divyanshi', 'ongoing');
 INSERT INTO `WishlistService`.`Wishlist` (`wishlist_id`, `name`, `creator_id`, `status`) VALUES (10, 'Anniversary', 'vaishali', 'ongoing');
 INSERT INTO `WishlistService`.`Wishlist` (`wishlist_id`, `name`, `creator_id`, `status`) VALUES (11, 'Friendship', 'vaishali', 'ongoing');
 INSERT INTO `WishlistService`.`Wishlist` (`wishlist_id`, `name`, `creator_id`, `status`) VALUES (12, 'Fashion', 'vaishali', 'ongoing');
